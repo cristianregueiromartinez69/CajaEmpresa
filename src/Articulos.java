@@ -1,20 +1,21 @@
 public class Articulos {
 
-    private String id;
+    private int id;
     private String nombre;
     private float precio;
 
-    public Articulos(String id, String nombre, float precio) {
+    public Articulos(int id, String nombre, float precio) {
         this.id = id;
         this.nombre = nombre;
         this.precio = precio;
     }
 
-    public String getId() {
+
+    public int getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 
